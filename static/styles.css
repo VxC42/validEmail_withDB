@@ -4,13 +4,28 @@
 }
 
 body{
-     font-family: serif;
-     padding:50px;
-     width: 300px
+     font-family: san-serif;
+     width: 600px;
+     font-size: 85%;
 
 }
 
-#successMsg{
-     width: 300px;
+#successMsg, #flashes, .regForm{
+     width: 400px;
      margin: 50px;
+}
+
+#flashes{
+     background:red;
+     padding: 5px;
+     border: 1px solid black;
+
+}
+
+input, hr{
+     margin:5px 0;
+}
+
+ul, li{
+     list-style-type: none;
 }
