@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Email Validation with Database</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+     <div id="flashes">
+          <p>{%with messages = get_flashed_messages()%}
+               {%if messages%}
+               <ul>
+                    {%for message in messages%}
+                         <li>{{message}}</li>
+                    {%endfor%}
+               </ul>
+               {%endif%}
+          {%endwith%}</p>
+     </div>
+
+     <div class="regForm">
+
+          <form action ='/submit' method='post'>
+          <p>Email:<input class="textfield" type="text" name ="email"></p>
+          <input class="button" type="submit" value="Submit">
+          </form>
+     </div>
+
+</body>
+</html>

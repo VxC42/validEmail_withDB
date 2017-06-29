@@ -1,0 +1,16 @@
+*{
+     margin:0;
+     padding:0;
+}
+
+body{
+     font-family: serif;
+     padding:50px;
+     width: 300px
+
+}
+
+#successMsg{
+     width: 300px;
+     margin: 50px;
+}
